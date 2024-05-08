@@ -17,20 +17,46 @@ def process_file(path):
 
 def preprocess(line):
   # Removing comma, punctuation and separating words from lines
-  words = line.split(".")
-  processed_words = []
-  for word in words:
-    word = word.strip()
-    word = word.lower()
-    word = word.replace(",", "")
-    word = word.replace(".", "")
-    word = word.replace(":", "")
-    word = word.replace(";", "")
-    word = word.replace("_", "")
-    word = word.replace("", "")
-    if word not in processed_words:
-      processed_words.append(word)
-  return processed_words
+  sentences = line.split(".")
+  processed_sentences = []
+  for sentence in sentences:
+    sentence = sentence.strip()
+    sentence = sentence.lower()
+    sentence = sentence.replace(",", "")
+    sentence = sentence.replace(".", "")
+    sentence = sentence.replace(":", "")
+    sentence = sentence.replace(";", "")
+    sentence = sentence.replace("_", "")
+    sentence = sentence.replace("$", "")
+    sentence = sentence.replace("§", "")
+    sentence = sentence.replace("%", "")
+    sentence = sentence.replace("/", "")
+    sentence = sentence.replace("|", "")
+    sentence = sentence.replace("*", "")
+    sentence = sentence.replace("®", "")
+    sentence = sentence.replace("“", "")
+    sentence = sentence.replace("—", "")
+    sentence = sentence.replace("[", "")
+    sentence = sentence.replace("]", "")
+    sentence = sentence.replace("1", "")
+    sentence = sentence.replace("2", "")
+    sentence = sentence.replace("3", "")
+    sentence = sentence.replace("4", "")
+    sentence = sentence.replace("5", "")
+    sentence = sentence.replace("6", "")
+    sentence = sentence.replace("7", "")
+    sentence = sentence.replace("8", "")
+    sentence = sentence.replace("9", "")
+    sentence = sentence.replace("0", "")
+    sentence = sentence.replace("!", "")
+    sentence = sentence.replace("+", "")
+    sentence = sentence.replace("-", "")
+    sentence = sentence.replace('"', "")
+    sentence = sentence.replace('»', "")
+    sentence = sentence.replace('«', "")
+    if sentence not in processed_sentences:
+      processed_sentences.append(sentence)
+  return processed_sentences
 
 
 # 44579
@@ -68,9 +94,9 @@ for language in languages:
     smallestValue = len(language.words)
 print(smallestValue)
 
+print("Writing to csv")
 for language in languages:
   print(language)
-  print("Writing to csv")
   language.write_to_csv(smallestValue)
 
 print("Application finished.")

@@ -27,16 +27,20 @@ def preprocess(line):
     word = word.replace(":", "")
     word = word.replace(";", "")
     word = word.replace("_", "")
-    word = word.replace("", "")
+    word = word.replace("$", "")
+    word = word.replace("§", "")
+    word = word.replace("%", "")
+    word = word.replace("/", "")
+    word = word.replace("®", "")
+    word = word.replace("“", "")
+    word = word.replace("[", "")
+    word = word.replace("]", "")
     if word not in processed_words:
       processed_words.append(word)
   return processed_words
 
 
-# 44579
-# 43764
 # Check the data
-
 with OSFS('./data') as fs:
   # Find directories
   directories = fs.listdir('.')
