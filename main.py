@@ -21,6 +21,7 @@ def preprocess(line):
   processed_words = []
   for word in words:
     word = word.strip()
+    word = word.lower()
     word = word.replace(",", "")
     word = word.replace(".", "")
     word = word.replace(":", "")
@@ -60,9 +61,16 @@ with open("./dataset.csv", 'w', newline='') as file:
 with open("./dataset.csv", 'w') as file:
   file.write("Word,Language\n")
 
+# Get smallest size
+smallestValue = 100000
+for language in languages:
+  if len(language.words) < smallestValue:
+    smallestValue = len(language.words)
+print(smallestValue)
+
 for language in languages:
   print(language)
   print("Writing to csv")
-  language.write_to_csv()
+  language.write_to_csv(smallestValue)
 
 print("Application finished.")
