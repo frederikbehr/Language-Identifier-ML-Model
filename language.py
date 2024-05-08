@@ -22,7 +22,7 @@ class Language:
         self.words.append(word)
 
   def can_add(self, word):
-    if word not in self.words and len(word) > 2 and is_not_num(word):
+    if word not in self.words and len(word) > 4 and is_not_num(word):
       return True
     else:
       return False
