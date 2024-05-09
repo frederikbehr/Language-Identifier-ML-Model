@@ -40,7 +40,7 @@ class Language:
       for word in self.words:
         if count is rows:
           break
-        writer.writerow([word, self.language])
+        writer.writerow([word.strip(), self.language])
         count = count + 1
 
   def __repr__(self):
