@@ -39,6 +39,7 @@ def preprocess(line):
       sentence = sentence.replace("*", "")
       sentence = sentence.replace("®", "")
       sentence = sentence.replace("“", "")
+      sentence = sentence.replace("'", "")
       sentence = sentence.replace("—", "")
       sentence = sentence.replace("[", "")
       sentence = sentence.replace("]", "")
