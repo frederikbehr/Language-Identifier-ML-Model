@@ -43,6 +43,13 @@ class Language:
         writer.writerow([word.strip(), self.language])
         count = count + 1
 
+  def remove_by_length(self, min_length, max_length):
+    result = []
+    for word in self.words:
+      if min_length <= len(word) <= max_length:
+        result.append(word)
+    self.words = result
+
   def __repr__(self):
     return (self.language
             + " with size="
