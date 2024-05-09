@@ -4,6 +4,7 @@ from language import Language
 
 # Data stored here
 languages = []
+target_languages = []
 
 min_length = 10
 max_length = 50
@@ -72,6 +73,9 @@ def preprocess(line):
     sentence = sentence.replace('dumbledore', "")
     sentence = sentence.replace('ron', "")
     sentence = sentence.replace('weasley', "")
+    sentence = sentence.replace('¿', "")
+    sentence = sentence.replace('columbus', "")
+    sentence = sentence.replace('christophorus', "")
     sentence = sentence.replace('„', "")
     sentence = sentence.replace('¡', "")
     sentence = sentence.replace('  ', " ")
@@ -124,15 +128,15 @@ with OSFS('./data') as fs:
   for index, directory in enumerate(directories):
     # Each directory / data per language
     # Get words and add to class object
-
-    print(f"Starting {directory} ({index+1} / {len(directories)})")
-    languages.append(Language(directory, []))
-    files = fs.listdir(directory)
-    for i, file in enumerate(files):
-      # Getting data from each file
-      print(f"    {file} ({i+1} / {len(files)})")
-      data = process_file("./data/" + directory + "/" + file)
-      languages[-1].add_words(data)
+    if len(target_languages) == 0 or directory in target_languages:
+      print(f"Starting {directory} ({index + 1} / {len(directories)})")
+      languages.append(Language(directory, []))
+      files = fs.listdir(directory)
+      for i, file in enumerate(files):
+        # Getting data from each file
+        print(f"    {file} ({i + 1} / {len(files)})")
+        data = process_file("./data/" + directory + "/" + file)
+        languages[-1].add_words(data)
 
 # Clear dataset.csv, so it won't contain duplicates
 with open("./dataset.csv", 'w', newline='') as file:
@@ -152,7 +156,6 @@ smallestValue = 100000
 for language in languages:
   if len(language.words) < smallestValue:
     smallestValue = len(language.words)
-print(smallestValue)
 
 print("Writing to csv")
 for language in languages:

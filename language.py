@@ -33,12 +33,15 @@ class Language:
     else:
       return random.choice(self.words)
 
+  def shuffle(self):
+    random.shuffle(self.words)
+
   def write_to_csv(self, rows):
     with open("./dataset.csv", 'a', newline='') as file:
       writer = csv.writer(file)
       count = 0
       for word in self.words:
-        if count is rows:
+        if count >= rows:
           break
         writer.writerow([word.strip(), self.language])
         count = count + 1
