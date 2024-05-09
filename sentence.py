@@ -81,14 +81,37 @@ def preprocess(line):
     sentence = sentence.replace('      ', " ")
     sentence = sentence.replace('       ', " ")
     sentence = sentence.replace('        ', " ")
-    words = sentence.split(" ")
-    if len(words) >= 4:
-      processed_sentences.append(" ".join(words[:2]).strip())
-      processed_sentences.append(" ".join(words[2:]).strip())
-    else:
-      processed_sentences.append(sentence)
+    processed_sentences.extend(split_into_lists(sentence))
 
   return processed_sentences
+
+
+def split_into_lists(text):
+  # Split the input text into words
+  words = text.split()
+
+  # Initialize an empty list to store the resulting lists of 1-3 words
+  result = []
+
+  # Iterate over the words to create lists of 1-3 words
+  i = 0
+  while i < len(words):
+    # Form a list with 1 word
+    sublist = [words[i]]
+
+    # Check if there are more words available to form a list of 2 or 3 words
+    if i + 1 < len(words):
+      sublist.append(words[i + 1])
+      if i + 2 < len(words):
+        sublist.append(words[i + 2])
+
+    # Join the sublist into a single string and append it to the result
+    result.append(" ".join(sublist))
+
+    # Update the index to skip the words that were already included in the sublist
+    i += len(sublist)
+
+  return result
 
 
 # 44579
