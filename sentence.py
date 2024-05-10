@@ -120,22 +120,22 @@ def split_into_lists(text):
 
 # 44579
 # 43764
-# Check the data
+# Check the data_languages
 
-with OSFS('./data') as fs:
+with OSFS('./data_languages') as fs:
   # Find directories
   directories = fs.listdir('.')
   for index, directory in enumerate(directories):
-    # Each directory / data per language
+    # Each directory / data_languages per language
     # Get words and add to class object
     if len(target_languages) == 0 or directory in target_languages:
       print(f"Starting {directory} ({index + 1} / {len(directories)})")
       languages.append(Language(directory, []))
       files = fs.listdir(directory)
       for i, file in enumerate(files):
-        # Getting data from each file
+        # Getting data_languages from each file
         print(f"    {file} ({i + 1} / {len(files)})")
-        data = process_file("./data/" + directory + "/" + file)
+        data = process_file("./data_languages/" + directory + "/" + file)
         languages[-1].add_words(data)
 
 # Clear dataset.csv, so it won't contain duplicates

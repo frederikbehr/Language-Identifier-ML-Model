@@ -40,21 +40,21 @@ def preprocess(line):
   return processed_words
 
 
-# Check the data
-with OSFS('./data') as fs:
+# Check the data_languages
+with OSFS('./data_languages') as fs:
   # Find directories
   directories = fs.listdir('.')
   for index, directory in enumerate(directories):
-    # Each directory / data per language
+    # Each directory / data_languages per language
     # Get words and add to class object
 
     print(f"Starting {directory} ({index+1} / {len(directories)})")
     languages.append(Language(directory, []))
     files = fs.listdir(directory)
     for i, file in enumerate(files):
-      # Getting data from each file
+      # Getting data_languages from each file
       print(f"    {file} ({i+1} / {len(files)})")
-      data = process_file("./data/" + directory + "/" + file)
+      data = process_file("./data_languages/" + directory + "/" + file)
       languages[-1].add_words(data)
 
 # Clear dataset.csv, so it won't contain duplicates

@@ -4,11 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094c4da1-f913-4ead-956e-504ebdebe075" name="Changes" comment="improved preprocessing replaced GlobalMaxPooling with Flatten. Seemed to improve the accuracy">
+    <list default="true" id="094c4da1-f913-4ead-956e-504ebdebe075" name="Changes" comment="pivoted to predict language family instead">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_05_2024__19_48__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_05_2024__19_48__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Bulgarian/pg10752.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Bulgarian/pg10752.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Bulgarian/pg2890.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Bulgarian/pg2890.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Bulgarian/pg4909.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Bulgarian/pg4909.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Czech/pg34225.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Czech/pg34225.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Danish/dansk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Danish/dansk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Danish/hp_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Danish/hp_description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dutch/pg18066.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Dutch/pg18066.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/English/book1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/English/book1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/English/book2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/English/book2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/French/french.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/French/french.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/French/hp_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/French/hp_description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/French/pg27566.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/French/pg27566.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/German/pg19755.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/German/pg19755.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/German/pg48902.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/German/pg48902.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Greek/dune.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Greek/dune.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Greek/pg28658.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Greek/pg28658.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Greek/pg37162.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Greek/pg37162.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Italian/hp_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Italian/hp_description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Italian/italian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Italian/italian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Italian/pg47786.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Italian/pg47786.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Latin/pg56744.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Latin/pg56744.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Latin/pg57615.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Latin/pg57615.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Latin/pg64146.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Latin/pg64146.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Norwegian/hp_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Norwegian/hp_description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Norwegian/norwegian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Norwegian/norwegian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Polish/pg27835.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Polish/pg27835.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Polish/pg27928.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Polish/pg27928.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Polish/pg28296.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Polish/pg28296.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Polish/pg34079.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Polish/pg34079.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Portuguese/pg15047.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Portuguese/pg15047.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Portuguese/pg27689.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Portuguese/pg27689.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Portuguese/pg29484.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Portuguese/pg29484.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Russian/Rouling_Djoann.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Russian/Rouling_Djoann.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Russian/garri_potter_i_kubok_ognya.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Russian/garri_potter_i_kubok_ognya.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Russian/pg14741.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Russian/pg14741.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Russian/pg30774.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Russian/pg30774.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Spanish/book3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Spanish/book3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Swedish/hp_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Swedish/hp_description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Swedish/pg52710.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Swedish/pg52710.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Swedish/swedish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Swedish/swedish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language_families.py" beforeDir="false" afterPath="$PROJECT_DIR$/language_families.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentence.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/word.py" beforeDir="false" afterPath="$PROJECT_DIR$/word.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -159,8 +202,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
-        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
       </set>
     </attachedChunks>
   </component>
@@ -177,6 +219,7 @@
       <workItem from="1715173808593" duration="186000" />
       <workItem from="1715174027315" duration="1229000" />
       <workItem from="1715175283405" duration="4947000" />
+      <workItem from="1715304000773" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -297,7 +340,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="improved preprocessing replaced GlobalMaxPooling with Flatten. Seemed to improve the accuracy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/languageLense$language_families.coverage" NAME="language_families Coverage Results" MODIFIED="1715294157134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/languageLense$language_families.coverage" NAME="language_families Coverage Results" MODIFIED="1715298766610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/languageLense$sentence.coverage" NAME="sentence Coverage Results" MODIFIED="1715283437943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bookScraper$sentence.coverage" NAME="sentence Coverage Results" MODIFIED="1715181085655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/languageLense$custom_preprocessor.coverage" NAME="custom_preprocessor Coverage Results" MODIFIED="1715287329429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
