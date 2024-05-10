@@ -1,6 +1,6 @@
 from fs.osfs import OSFS
 
-from language import Language
+from classes.data import Data
 
 # Data stored here
 languages = []
@@ -49,7 +49,7 @@ with OSFS('./data_languages') as fs:
     # Get words and add to class object
 
     print(f"Starting {directory} ({index+1} / {len(directories)})")
-    languages.append(Language(directory, []))
+    languages.append(Data(directory, []))
     files = fs.listdir(directory)
     for i, file in enumerate(files):
       # Getting data_languages from each file
@@ -57,12 +57,12 @@ with OSFS('./data_languages') as fs:
       data = process_file("./data_languages/" + directory + "/" + file)
       languages[-1].add_words(data)
 
-# Clear dataset.csv, so it won't contain duplicates
-with open("./dataset.csv", 'w', newline='') as file:
+# Clear dataset_families.csv, so it won't contain duplicates
+with open("data/dataset_families.csv", 'w', newline='') as file:
   file.truncate(0)
 
 # Set column labels
-with open("./dataset.csv", 'w') as file:
+with open("data/dataset_families.csv", 'w') as file:
   file.write("Word,Language\n")
 
 # Get smallest size

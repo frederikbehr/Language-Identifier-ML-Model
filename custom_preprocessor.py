@@ -9,7 +9,7 @@ def remove_special_characters(text):
 
 def remove_names(text):
   names_to_remove = ['harry', 'potter', 'hagrid', 'hermione', 'dumbledore', 'ron', 'weasley', 'columbus',
-                     'christophorus', 'poul', 'paul', 'atreides', 'image']
+                     'christophorus', 'poul', 'paul', 'atreides', 'image', 'matilda']
   pattern = r'\b(?:{})\b'.format('|'.join(map(re.escape, names_to_remove)))
   return re.sub(pattern, '', text, flags=re.IGNORECASE)
 
