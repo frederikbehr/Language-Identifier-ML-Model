@@ -9,7 +9,9 @@ def remove_special_characters(text):
 
 def remove_names(text):
   names_to_remove = ['harry', 'potter', 'hagrid', 'hermione', 'dumbledore', 'ron', 'weasley', 'columbus',
-                     'christophorus', 'poul', 'paul', 'atreides', 'image', 'matilda']
+                     'christophorus', 'poul', 'paul', 'atreides', 'image', 'matilda', 'hermionel', 'neville',
+                     'sport', 'filch', 'voldemort', 'draco', 'malfoy', 'lucius', 'garri', 'Narcissa', 'minerva',
+                     'mcgonngall']
   pattern = r'\b(?:{})\b'.format('|'.join(map(re.escape, names_to_remove)))
   return re.sub(pattern, '', text, flags=re.IGNORECASE)
 
@@ -26,6 +28,20 @@ def remove_spaces(text):
 def change_characters(text):
   return unidecode(text)
 
+def equalize_length(text):
+  max_length = 48
+  words = text.split(" ")
+  words = words*4
+  result = text
+  for word in words:
+    if len(result) + len(word) < max_length:
+      result = " ".join([result, word])
+    else:
+      return result
+  return result
+
+
+
 def preprocess(text):
   text = text.strip()
   text = text.lower()
@@ -35,6 +51,7 @@ def preprocess(text):
   text = change_characters(text)
   text = remove_special_characters(text)
   text = remove_names(text)
-  return text
+  result = equalize_length(text)
+  return result
 
 

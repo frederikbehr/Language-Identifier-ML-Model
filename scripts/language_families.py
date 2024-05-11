@@ -81,12 +81,12 @@ def handle_data():
     language.shuffle()
 
   # Filter by length
-  print("Equalizing the lengths of data_languages...")
+  print("Equalizing the lengths of data set...")
   for language in languages:
     language.remove_by_length(min_length=min_length, max_length=max_length)
 
   # Get smallest size
-  print("Finding smallest data_languages set")
+  print("Finding smallest data set")
   max_rows = 100000
   for language in languages:
     if len(language.words) < max_rows:
