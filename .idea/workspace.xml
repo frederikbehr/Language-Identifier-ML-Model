@@ -5,48 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="094c4da1-f913-4ead-956e-504ebdebe075" name="Changes" comment="models for 5 language families finished">
-      <change afterPath="$PROJECT_DIR$/converted_models/model_families/group1-shard1of1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converted_models/model_families/model.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converted_models/model_germanic/group1-shard1of1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converted_models/model_germanic/model.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/convert_to_js.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_families/group1-shard1of1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_families/model.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_germanic/group1-shard1of1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_germanic/model.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_hellenic/group1-shard1of1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_hellenic/model.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_romance/group1-shard1of1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_romance/model.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_slavic/group1-shard1of1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_slavic/model.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_uralic/group1-shard1of1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/converted_models/model_uralic/model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/languageLense.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/languageLens.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_05_2024,_19_48_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_05_2024__19_48__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2024_6_19_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2024_6_19_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_2_31_AM_[Changes]/model.keras" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_2_31_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_2_31_AM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_3_37_AM_[Changes]/model.keras" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_3_37_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_3_37_AM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_3_51_PM_[Changes]/model.keras" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_3_51_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_3_51_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_5_59_AM_[Changes]/model.keras" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_5_59_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_5_59_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dataset_uralic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/dataset_uralic.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_families/Germanic/pg54113.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_families/Germanic/pg54113.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_germanic/Swedish/pg54113.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_germanic/Swedish/pg54113.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_languages/Swedish/pg54113.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_languages/Swedish/pg54113.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_hellenic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model_hellenic.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_preprocessor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model_languages.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model_languages.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_hellenic.keras" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_hellenic.keras" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +93,7 @@
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sentence">
+  <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="languageLens" />
       <option name="ENV_FILES" value="" />
@@ -182,6 +144,30 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="custom_preprocessor" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="languageLens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/custom_preprocessor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,6 +355,8 @@
       <workItem from="1716057886992" duration="30000" />
       <workItem from="1716057985562" duration="15000" />
       <workItem from="1716058066258" duration="2000" />
+      <workItem from="1716062413725" duration="212000" />
+      <workItem from="1716062628625" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
