@@ -4,41 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094c4da1-f913-4ead-956e-504ebdebe075" name="Changes" comment="model now works excellent">
-      <change afterPath="$PROJECT_DIR$/data/dataset_uralic.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_uralic/Estonian/pg44217.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_uralic/Finnish/pg33100.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_uralic/Finnish/pg59796.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_uralic/Finnish/pg61343.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_uralic/Finnish/pg62953.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_uralic/Finnish/pg63035.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_uralic/Finnish/pg66896.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_uralic/Finnish/pg71435.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_uralic/Hungarian/pg62239.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_uralic/Hungarian/pg63586.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_uralic.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/model_families.keras" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/model_uralic.keras" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/language_uralic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenizer_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenizer_config_families.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenizer_config_germanic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenizer_config_hellenic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenizer_config_romance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenizer_config_slavic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenizer_config_uralic.json" afterDir="false" />
+    <list default="true" id="094c4da1-f913-4ead-956e-504ebdebe075" name="Changes" comment="models for 5 language families finished">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_germanic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model_germanic.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_hellenic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model_hellenic.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_language_families.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model_language_families.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_preprocessor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model_languages.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model_languages.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_romance.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model_romance.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_slavic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model_slavic.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_germanic.keras" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_germanic.keras" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_hellenic.keras" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_hellenic.keras" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_lang_families.keras" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_romance.keras" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_romance.keras" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_slavic.keras" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_slavic.keras" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -79,52 +49,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.custom_preprocessor.executor": "Run",
-    "Python.language_families.executor": "Run",
-    "Python.language_germanic.executor": "Run",
-    "Python.language_hellenic.executor": "Run",
-    "Python.language_romance.executor": "Run",
-    "Python.language_slavic.executor": "Run",
-    "Python.language_uralic.executor": "Run",
-    "Python.languages.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.sentence.executor": "Run",
-    "Python.word.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/frederikalexanderbehrens/PycharmProjects/languageLense",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.convert_to_js.executor&quot;: &quot;Run&quot;,
+    &quot;Python.custom_preprocessor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.language_families.executor&quot;: &quot;Run&quot;,
+    &quot;Python.language_germanic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.language_hellenic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.language_romance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.language_slavic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.language_uralic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.languages.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sentence.executor&quot;: &quot;Run&quot;,
+    &quot;Python.word.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/frederikalexanderbehrens/PycharmProjects/languageLens&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_families/Germanic" />
+      <recent name="$PROJECT_DIR$/data_germanic/Swedish" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$/data_slavic" />
-      <recent name="$PROJECT_DIR$/data_families/Slavic" />
-      <recent name="$PROJECT_DIR$/data_languages/Serbian" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/converter" />
+      <recent name="$PROJECT_DIR$/tokenizer_configs" />
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/scripts" />
-      <recent name="$PROJECT_DIR$/data_families/Germanic" />
-      <recent name="$PROJECT_DIR$/data_families/Romance" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="languageLense" />
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="languageLens" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,12 +103,71 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="languageLens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="languageLens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="custom_preprocessor" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="languageLens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/custom_preprocessor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +177,7 @@
       <method v="2" />
     </configuration>
     <configuration name="sentence" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="languageLense" />
+      <module name="languageLens" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,7 +200,7 @@
       <method v="2" />
     </configuration>
     <configuration name="word" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="languageLense" />
+      <module name="languageLens" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,6 +220,105 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="languageLens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="languageLens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="languageLens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="languageLens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="languageLens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="languageLens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -217,7 +346,17 @@
       <workItem from="1715304653547" duration="7681000" />
       <workItem from="1715355666298" duration="9543000" />
       <workItem from="1715374188619" duration="25700000" />
-      <workItem from="1715468149085" duration="7559000" />
+      <workItem from="1715468149085" duration="13999000" />
+      <workItem from="1715806005439" duration="2224000" />
+      <workItem from="1715861391996" duration="601000" />
+      <workItem from="1715881311526" duration="1464000" />
+      <workItem from="1715887910888" duration="2071000" />
+      <workItem from="1715895924765" duration="3835000" />
+      <workItem from="1716057886992" duration="30000" />
+      <workItem from="1716057985562" duration="15000" />
+      <workItem from="1716058066258" duration="2000" />
+      <workItem from="1716062413725" duration="212000" />
+      <workItem from="1716062628625" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -331,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715438486877</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="models for 5 language families finished">
+      <option name="closed" value="true" />
+      <created>1715476935147</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715476935147</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,12 +510,13 @@
     <MESSAGE value="pivoted to predict language family instead" />
     <MESSAGE value="reorganized repository an d added support for two models: language families and languages" />
     <MESSAGE value="model now works excellent" />
-    <option name="LAST_COMMIT_MESSAGE" value="model now works excellent" />
+    <MESSAGE value="models for 5 language families finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="models for 5 language families finished" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/languageLense$language_uralic.coverage" NAME="language_uralic Coverage Results" MODIFIED="1715473254262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/languageLense$language_uralic.coverage" NAME="language_uralic Coverage Results" MODIFIED="1715481809060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/bookScraper$sentence.coverage" NAME="sentence Coverage Results" MODIFIED="1715181085655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/languageLense$main.coverage" NAME="main Coverage Results" MODIFIED="1715473198085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/languageLense$main.coverage" NAME="main Coverage Results" MODIFIED="1715898208479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/languageLense$language_hellenic.coverage" NAME="language_hellenic Coverage Results" MODIFIED="1715435433899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/languageLense$language_families.coverage" NAME="language_families Coverage Results" MODIFIED="1715374784080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/languageLense$sentence.coverage" NAME="sentence Coverage Results" MODIFIED="1715283437943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -378,6 +526,7 @@
     <SUITE FILE_PATH="coverage/languageLense$word.coverage" NAME="word Coverage Results" MODIFIED="1715208653282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/languageLense$language_germanic.coverage" NAME="language_germanic Coverage Results" MODIFIED="1715374811823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/languageLense$language_romance.coverage" NAME="language_romance Coverage Results" MODIFIED="1715393179846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/languageLense$convert_to_js.coverage" NAME="convert_to_js Coverage Results" MODIFIED="1715898216077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/converter" />
     <SUITE FILE_PATH="coverage/bookScraper$main.coverage" NAME="main Coverage Results" MODIFIED="1715174462631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
