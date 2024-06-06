@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094c4da1-f913-4ead-956e-504ebdebe075" name="Changes" comment="models for 5 language families finished">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="094c4da1-f913-4ead-956e-504ebdebe075" name="Changes" comment="Fixed bug from new update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_preprocessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_languages.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model_languages.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_germanic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model_germanic.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="380bb28f62cc78b8d542d61117954b2ac0aefaf1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -38,6 +42,9 @@
     &quot;accountId&quot;: &quot;a1ceff9a-a22e-4d55-a18f-7f81ab8f7f44&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -93,7 +100,7 @@
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.custom_preprocessor">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="languageLens" />
       <option name="ENV_FILES" value="" />
@@ -357,6 +364,9 @@
       <workItem from="1716058066258" duration="2000" />
       <workItem from="1716062413725" duration="212000" />
       <workItem from="1716062628625" duration="333000" />
+      <workItem from="1716067369876" duration="10000" />
+      <workItem from="1716235747423" duration="3000" />
+      <workItem from="1716235834544" duration="550000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

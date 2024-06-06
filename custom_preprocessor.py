@@ -1,4 +1,5 @@
 from unidecode import unidecode
+import re
 
 
 def remove_special_characters(text):
