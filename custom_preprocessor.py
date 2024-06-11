@@ -12,7 +12,7 @@ def remove_names(text):
   names_to_remove = ['harry', 'potter', 'hagrid', 'hermione', 'dumbledore', 'ron', 'weasley', 'columbus',
                      'christophorus', 'poul', 'paul', 'atreides', 'image', 'matilda', 'hermionel', 'neville',
                      'sport', 'filch', 'voldemort', 'draco', 'malfoy', 'lucius', 'garri', 'Narcissa', 'minerva',
-                     'mcgonngall']
+                     'mcgonngall', "privet drive"]
   pattern = r'\b(?:{})\b'.format('|'.join(map(re.escape, names_to_remove)))
   return re.sub(pattern, '', text, flags=re.IGNORECASE)
 
